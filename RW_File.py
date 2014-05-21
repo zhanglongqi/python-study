@@ -2,8 +2,6 @@
 """
 Spyder Editor
 
-This temporary script file is located here:
-/home/longqi/.spyder2/.temp.py
 """
 
 
@@ -16,10 +14,30 @@ def change(line):
 
     return newLine
 
+print file.__doc__
 
-output = open('Animation_Raw_LUT_2.dat', 'w')
-with open("Animation_Raw_LUT.dat") as infile:
-    for line in infile:
-        output.write(change(line) + '\n')
+try:
+    datFile = open('in.txt', 'r')
+except IOError:
+    print "open failed..."
 
-output.close()
+if not datFile.closed:
+
+    print '\n***********1***********'
+    for line in datFile:
+        print datFile.tell()
+        print line
+    print 'first end\n'
+
+    print '\n***********2***********'
+    datFile.seek(2,0)
+    line = datFile.read(6)
+    print line, '\n', datFile.tell()
+
+    print '\n***********3***********'
+    datFile.seek(0,0)
+    l1 = list(datFile)
+    print l1
+
+
+datFile.close()

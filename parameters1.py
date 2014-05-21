@@ -19,3 +19,4 @@ talking more
 talking more line 2
 talking more line 3
 """
+print args
