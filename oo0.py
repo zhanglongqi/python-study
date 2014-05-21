@@ -22,6 +22,8 @@ class Person(object):
 
     def set_age(self, age):
         self.age = age
+
+
 print 111111111111111
 print Person, type(Person)
 
@@ -43,19 +45,18 @@ p3.say_hi()
 Person("").say_hi()
 Person("The Dark One").say_hi()
 
-
 print "*************inheritance**************", "\n"
 
 
 class Teacher(Person):
-
     def __init__(self, name, age):
         Person.__init__(self, name)  #必须手动调用父类构造函数
         self.age = age
 
     def say_hi(self):
         Person.say_hi(self)
-    #    super(Teacher, self).say_hi()
+        #    super(Teacher, self).say_hi()
+
 
 t = Teacher("T1", 32)
 t.say_hi()

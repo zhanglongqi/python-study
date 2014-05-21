@@ -1,40 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2a371e5-ba88-49be-ae61-7e1a0d12c047" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/python.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/longqi.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/RW_File.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/RegularExpression.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/argument.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/except.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/httpServer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/httpServer2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/httpServer3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/in.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/math.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oo0.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parameters1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/path.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/printing.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seq.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sorted.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.e4p" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tuples.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vlc.html" afterPath="" />
+    <list default="true" id="f2a371e5-ba88-49be-ae61-7e1a0d12c047" name="Default" comment="test 1">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RW_File.py" afterPath="$PROJECT_DIR$/RW_File.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RegularExpression.py" afterPath="$PROJECT_DIR$/RegularExpression.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/argument.py" afterPath="$PROJECT_DIR$/argument.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backup.py" afterPath="$PROJECT_DIR$/backup.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backup2.py" afterPath="$PROJECT_DIR$/backup2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/except.py" afterPath="$PROJECT_DIR$/except.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpServer.py" afterPath="$PROJECT_DIR$/httpServer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpServer2.py" afterPath="$PROJECT_DIR$/httpServer2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpServer3.py" afterPath="$PROJECT_DIR$/httpServer3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oo0.py" afterPath="$PROJECT_DIR$/oo0.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parameters1.py" afterPath="$PROJECT_DIR$/parameters1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/path.py" afterPath="$PROJECT_DIR$/path.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/printing.py" afterPath="$PROJECT_DIR$/printing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seq.py" afterPath="$PROJECT_DIR$/seq.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sorted.py" afterPath="$PROJECT_DIR$/sorted.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.html" afterPath="$PROJECT_DIR$/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tuples.py" afterPath="$PROJECT_DIR$/tuples.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uart.py" afterPath="$PROJECT_DIR$/uart.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vlc.html" afterPath="$PROJECT_DIR$/vlc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,11 +45,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="path.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="path.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/path.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="20" selection-start="516" selection-end="516" vertical-scroll-proportion="0.47635728" vertical-offset="0" max-vertical-offset="571">
+            <state line="18" column="13" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+              <folding>
+                <element signature="e#86#100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="printing.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/printing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="2" selection-start="242" selection-end="242" vertical-scroll-proportion="0.32749563" vertical-offset="0" max-vertical-offset="782">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parameters1.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parameters1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="in.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/in.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="math.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/math.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uart.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uart.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="19" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
+              <folding>
+                <element signature="e#19#30#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,6 +116,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/uart.py" />
         <option value="$PROJECT_DIR$/path.py" />
       </list>
     </option>
@@ -144,6 +182,8 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="LayoutCode.rearrangeEntriesPython" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -329,13 +369,19 @@
       <created>1400637745511</created>
       <updated>1400637745511</updated>
     </task>
+    <task id="LOCAL-00001" summary="test 1">
+      <created>1400639037391</created>
+      <updated>1400639037391</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="142" y="44" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -366,14 +412,56 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="test 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 1" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/in.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="571">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="571">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="19" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
+          <folding>
+            <element signature="e#19#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parameters1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="571">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/path.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="20" selection-start="516" selection-end="516" vertical-scroll-proportion="0.47635728" vertical-offset="0" max-vertical-offset="571">
+        <state line="18" column="13" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <folding>
+            <element signature="e#86#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/printing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="2" selection-start="242" selection-end="242" vertical-scroll-proportion="0.32749563" vertical-offset="0" max-vertical-offset="782">
           <folding />
         </state>
       </provider>

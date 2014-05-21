@@ -8,7 +8,7 @@ This temporary script file is located here:
 
 
 def change(line):
-    newLine=''
+    newLine = ''
     if 'RA' in line:
         newLine = line[0:line.find('RA\t[x]')]
     else:
@@ -17,11 +17,9 @@ def change(line):
     return newLine
 
 
-
-
 output = open('Animation_Raw_LUT_2.dat', 'w')
 with open("Animation_Raw_LUT.dat") as infile:
     for line in infile:
-       output.write(change(line)+'\n')
+        output.write(change(line) + '\n')
 
 output.close()

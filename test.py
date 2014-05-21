@@ -6,7 +6,7 @@ Created on Sat Aug 17 19:58:58 2013
 @author: longqi
 """
 
-from BaseHTTPServer import BaseHTTPRequestHandler,HTTPServer
+from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
 from os import curdir, sep
 
 PORT_NUMBER = 8000
@@ -14,11 +14,10 @@ PORT_NUMBER = 8000
 #This class will handles any incoming request from
 #the browser 
 class myHandler(BaseHTTPRequestHandler):
-    
     #Handler for the GET requests
     def do_GET(self):
-        if self.path=="/":
-            self.path="/test.py"
+        if self.path == "/":
+            self.path = "/test.py"
 
         try:
             #Check the file extension required and
@@ -26,29 +25,29 @@ class myHandler(BaseHTTPRequestHandler):
 
             sendReply = False
             if self.path.endswith(".html"):
-                mimetype='text/html'
+                mimetype = 'text/html'
                 sendReply = True
             if self.path.endswith(".jpg"):
-                mimetype='image/jpg'
+                mimetype = 'image/jpg'
                 sendReply = True
             if self.path.endswith(".gif"):
-                mimetype='image/gif'
+                mimetype = 'image/gif'
                 sendReply = True
             if self.path.endswith(".js"):
-                mimetype='application/javascript'
+                mimetype = 'application/javascript'
                 sendReply = True
             if self.path.endswith(".css"):
-                mimetype='text/css'
+                mimetype = 'text/css'
                 sendReply = True
-            if self.path.endswith('.txt') or self.path=="/test.py":
-                mimetype='text/plain'
+            if self.path.endswith('.txt') or self.path == "/test.py":
+                mimetype = 'text/plain'
                 sendReply = True
-                
-            if sendReply == True :
+
+            if sendReply == True:
                 #Open the static file requested and send it
-                f = open(curdir + sep + self.path) 
+                f = open(curdir + sep + self.path)
                 self.send_response(200)
-                self.send_header('Content-type',mimetype)
+                self.send_header('Content-type', mimetype)
                 self.end_headers()
                 self.wfile.write(f.read())
                 f.close()
@@ -56,14 +55,15 @@ class myHandler(BaseHTTPRequestHandler):
 
 
         except IOError:
-            self.send_error(404,'File Not Found: %s' % self.path)
+            self.send_error(404, 'File Not Found: %s' % self.path)
+
 
 try:
     #Create a web server and define the handler to manage the
     #incoming request
     server = HTTPServer(('', PORT_NUMBER), myHandler)
-    print ('Started httpServer on port ' , PORT_NUMBER)
-    
+    print ('Started httpServer on port ', PORT_NUMBER)
+
     #Wait forever for incoming http requests
     server.serve_forever()
 

@@ -15,7 +15,6 @@ tuple2 = (1,)
 #be followed by a comma.
 (x, y, z) = (10, 13, "like")
 
-
 print ((tuple, x, y, z))
 print ((x * 3, z * 3))
 print ((x / 2, x / 3, x / 3.0, x // 3, x % 3))
