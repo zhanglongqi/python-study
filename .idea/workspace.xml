@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2a371e5-ba88-49be-ae61-7e1a0d12c047" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bidirectional/bi-directional.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bidirectional/bi-directional.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bidirectional/myPyModbus.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pyqt/my_icon.py" afterPath="$PROJECT_DIR$/pyqt/my_icon.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python.iws" />
@@ -27,21 +27,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="my_icon.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pyqt/my_icon.py">
+      <file leaf-file-name="myPyModbus.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bidirectional/myPyModbus.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.6610703" vertical-offset="0" max-vertical-offset="953">
+            <state line="5" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.15100671" vertical-offset="0" max-vertical-offset="596">
               <folding>
-                <element signature="e#10#20#0" expanded="true" />
+                <element signature="e#125#136#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QWidget.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/PyQt4/QtGui/QWidget.py">
+      <file leaf-file-name="common.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python2.7/dist-packages/pymodbus/client/common.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1035" column="13" selection-start="38157" selection-end="38162" vertical-scroll-proportion="-10.1" vertical-offset="18273" max-vertical-offset="20160">
+            <state line="112" column="0" selection-start="3920" selection-end="3920" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="2484">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register_read_message.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python2.7/dist-packages/pymodbus/register_read_message.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="63" column="14" selection-start="1656" selection-end="1662" vertical-scroll-proportion="0.0" vertical-offset="1026" max-vertical-offset="6246">
               <folding />
             </state>
           </provider>
@@ -68,6 +77,7 @@
         <option value="$PROJECT_DIR$/pyqt.py" />
         <option value="$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/PyQt4/QtGui/QFont.py" />
         <option value="$PROJECT_DIR$/pyqt/my_icon.py" />
+        <option value="$PROJECT_DIR$/bidirectional/myPyModbus.py" />
       </list>
     </option>
   </component>
@@ -150,45 +160,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pyqt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bidirectional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="editor" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="/usr/local/lib/python2.7/dist-packages/pymodbus/pdu.py" />
     <property name="LayoutCode.rearrangeEntriesPython" value="false" />
     <property name="FullScreen" value="false" />
   </component>
@@ -202,7 +184,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.my_icon">
+  <component name="RunManager" selected="Python.myPyModbus">
     <configuration default="false" name="RW_File" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,24 +198,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RW_File.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="path" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/path.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -290,6 +254,26 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyqt/my_icon.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="myPyModbus" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bidirectional" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bidirectional/myPyModbus.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -435,18 +419,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.list1" />
       <item index="1" class="java.lang.String" itemvalue="Python.RW_File" />
-      <item index="2" class="java.lang.String" itemvalue="Python.path" />
-      <item index="3" class="java.lang.String" itemvalue="Python.parameters1" />
-      <item index="4" class="java.lang.String" itemvalue="Python.pyqt" />
-      <item index="5" class="java.lang.String" itemvalue="Python.my_icon" />
+      <item index="2" class="java.lang.String" itemvalue="Python.parameters1" />
+      <item index="3" class="java.lang.String" itemvalue="Python.pyqt" />
+      <item index="4" class="java.lang.String" itemvalue="Python.my_icon" />
+      <item index="5" class="java.lang.String" itemvalue="Python.myPyModbus" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.my_icon" />
-        <item index="1" class="java.lang.String" itemvalue="Python.pyqt" />
-        <item index="2" class="java.lang.String" itemvalue="Python.RW_File" />
-        <item index="3" class="java.lang.String" itemvalue="Python.parameters1" />
-        <item index="4" class="java.lang.String" itemvalue="Python.path" />
+        <item index="0" class="java.lang.String" itemvalue="Python.myPyModbus" />
+        <item index="1" class="java.lang.String" itemvalue="Python.my_icon" />
+        <item index="2" class="java.lang.String" itemvalue="Python.pyqt" />
+        <item index="3" class="java.lang.String" itemvalue="Python.RW_File" />
+        <item index="4" class="java.lang.String" itemvalue="Python.parameters1" />
       </list>
     </recent_temporary>
   </component>
@@ -506,24 +490,24 @@
     <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20323451" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14609164" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36317396" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36317396" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -545,23 +529,35 @@
     <option name="LAST_COMMIT_MESSAGE" value="study PyQt" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pyqt/my_icon.py">
+    <entry file="file://$PROJECT_DIR$/bidirectional/myPyModbus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="7" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="648">
+        <state line="7" column="16" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="396">
           <folding>
-            <element signature="e#10#20#0" expanded="true" />
+            <element signature="e#125#136#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/PyQt4/QtGui/QMessageBox.py">
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/pymodbus/register_read_message.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="187" selection-start="6148" selection-end="6148" vertical-scroll-proportion="0.0" vertical-offset="2268" max-vertical-offset="5130">
+        <state line="72" column="0" selection-start="1918" selection-end="1918" vertical-scroll-proportion="0.0" vertical-offset="1296" max-vertical-offset="6300">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyqt/my_icon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="7" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="648" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/PyQt4/QtGui/QMessageBox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="187" selection-start="6148" selection-end="6148" vertical-scroll-proportion="0.0" vertical-offset="2268" max-vertical-offset="5130" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pyqt.py">
@@ -609,11 +605,6 @@
         <state line="34" column="4" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="1139" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3806" column="4" selection-start="129501" selection-end="129501" vertical-scroll-proportion="0.46189025" vertical-offset="64399" max-vertical-offset="87108" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/_io.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1010" column="16" selection-start="35734" selection-end="35742" vertical-scroll-proportion="0.33231708" vertical-offset="16952" max-vertical-offset="23052" />
@@ -651,30 +642,67 @@
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/PyQt4/QtGui/QDesktopWidget.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="31" selection-start="2030" selection-end="2030" vertical-scroll-proportion="0.42281878" vertical-offset="720" max-vertical-offset="1440">
-          <folding />
-        </state>
+        <state line="57" column="31" selection-start="2030" selection-end="2030" vertical-scroll-proportion="0.42281878" vertical-offset="720" max-vertical-offset="1440" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/PyQt4/QtGui/QMessageBox.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="187" selection-start="6148" selection-end="6148" vertical-scroll-proportion="-0.09262436" vertical-offset="2268" max-vertical-offset="5076">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/PyQt4/QtGui/QWidget.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1035" column="13" selection-start="38157" selection-end="38162" vertical-scroll-proportion="-10.1" vertical-offset="18273" max-vertical-offset="20160">
-          <folding />
-        </state>
+        <state line="126" column="187" selection-start="6148" selection-end="6148" vertical-scroll-proportion="-0.09262436" vertical-offset="2268" max-vertical-offset="5076" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pyqt/my_icon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.6610703" vertical-offset="0" max-vertical-offset="953">
+        <state line="15" column="4" selection-start="369" selection-end="369" vertical-scroll-proportion="0.45302013" vertical-offset="0" max-vertical-offset="792" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/PyQt4/QtGui/QWidget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1035" column="13" selection-start="38157" selection-end="38162" vertical-scroll-proportion="0.5479204" vertical-offset="18273" max-vertical-offset="20160" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/pymodbus/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="0.36241612" vertical-offset="0" max-vertical-offset="774" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/pymodbus/client/sync.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="6" selection-start="4096" selection-end="4096" vertical-scroll-proportion="0.33221477" vertical-offset="1602" max-vertical-offset="6534">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/pymodbus/pdu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="16" selection-start="2565" selection-end="2565" vertical-scroll-proportion="0.45936397" vertical-offset="1054" max-vertical-offset="4356" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4433" column="6" selection-start="149944" selection-end="149944" vertical-scroll-proportion="0.33221477" vertical-offset="79596" max-vertical-offset="92232">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/pymodbus/register_read_message.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="14" selection-start="1656" selection-end="1662" vertical-scroll-proportion="0.0" vertical-offset="1026" max-vertical-offset="6246">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/pymodbus/client/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="0" selection-start="3920" selection-end="3920" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="2484">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bidirectional/myPyModbus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.15100671" vertical-offset="0" max-vertical-offset="596">
           <folding>
-            <element signature="e#10#20#0" expanded="true" />
+            <element signature="e#125#136#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -3,7 +3,7 @@ import sys
 from PyQt4 import QtGui
 
 
-class My_widget(QtGui.QWidget):
+class My_Widget(QtGui.QWidget):
 
     def __init__(self, parent=None):
 
@@ -32,7 +32,7 @@ class My_widget(QtGui.QWidget):
         self.move(screen.width()/2-size.width()/2, (screen.height()-self.height())/2)
 
 app = QtGui.QApplication(sys.argv)
-my = My_widget()
+my = My_Widget()
 
 my.show()
 app.exec_()
