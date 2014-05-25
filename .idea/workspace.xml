@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2a371e5-ba88-49be-ae61-7e1a0d12c047" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pyqt.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pyqt/my_icon.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python.iws" />
@@ -26,10 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pyqt.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pyqt.py">
+      <file leaf-file-name="my_icon.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pyqt/my_icon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="20" selection-start="1754" selection-end="1754" vertical-scroll-proportion="0.5335366" vertical-offset="432" max-vertical-offset="1139">
+            <state line="37" column="11" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.7885906" vertical-offset="196" max-vertical-offset="792">
+              <folding>
+                <element signature="e#10#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QWidget.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/PyQt4/QtGui/QWidget.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1035" column="13" selection-start="38157" selection-end="38162" vertical-scroll-proportion="-10.1" vertical-offset="18273" max-vertical-offset="20160">
               <folding />
             </state>
           </provider>
@@ -54,6 +65,8 @@
         <option value="$PROJECT_DIR$/RW_File.py" />
         <option value="$PROJECT_DIR$/list1.py" />
         <option value="$PROJECT_DIR$/pyqt.py" />
+        <option value="$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/PyQt4/QtGui/QFont.py" />
+        <option value="$PROJECT_DIR$/pyqt/my_icon.py" />
       </list>
     </option>
   </component>
@@ -136,12 +149,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pyqt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="Errors" />
+    <property name="options.lastSelected" value="editor" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -160,7 +187,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pyqt">
+  <component name="RunManager" selected="Python.my_icon">
     <configuration default="false" name="RW_File" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -228,6 +255,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyqt.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="my_icon" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyqt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyqt/my_icon.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -372,19 +417,21 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.list1" />
       <item index="1" class="java.lang.String" itemvalue="Python.RW_File" />
       <item index="2" class="java.lang.String" itemvalue="Python.path" />
       <item index="3" class="java.lang.String" itemvalue="Python.parameters1" />
       <item index="4" class="java.lang.String" itemvalue="Python.pyqt" />
+      <item index="5" class="java.lang.String" itemvalue="Python.my_icon" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.pyqt" />
-        <item index="1" class="java.lang.String" itemvalue="Python.RW_File" />
-        <item index="2" class="java.lang.String" itemvalue="Python.parameters1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.path" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.my_icon" />
+        <item index="1" class="java.lang.String" itemvalue="Python.pyqt" />
+        <item index="2" class="java.lang.String" itemvalue="Python.RW_File" />
+        <item index="3" class="java.lang.String" itemvalue="Python.parameters1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.path" />
       </list>
     </recent_temporary>
   </component>
@@ -425,27 +472,31 @@
       <created>1400677404935</created>
       <updated>1400677404935</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="study PyQt">
+      <created>1400758282778</created>
+      <updated>1400758282778</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1315364" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20323451" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30071357" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36317396" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925585" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -467,24 +518,42 @@
     <MESSAGE value="test 1" />
     <MESSAGE value="Reformatting Source Code" />
     <MESSAGE value="study list and tuple" />
-    <option name="LAST_COMMIT_MESSAGE" value="study list and tuple" />
+    <MESSAGE value="study PyQt" />
+    <option name="LAST_COMMIT_MESSAGE" value="study PyQt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/RW_File.py">
+    <entry file="file://$PROJECT_DIR$/pyqt/my_icon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="4" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="816">
+        <state line="15" column="7" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="648">
+          <folding>
+            <element signature="e#10#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/PyQt4/QtGui/QMessageBox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="187" selection-start="6148" selection-end="6148" vertical-scroll-proportion="0.0" vertical-offset="2268" max-vertical-offset="5130">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pyqt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1733" selection-end="1733" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1139" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RW_File.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="4" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="816" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/list1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="15" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="663">
-          <folding />
-        </state>
+        <state line="28" column="15" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="663" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parameters1.py">
@@ -519,9 +588,7 @@
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3806" column="4" selection-start="129501" selection-end="129501" vertical-scroll-proportion="0.46189025" vertical-offset="64399" max-vertical-offset="87108">
-          <folding />
-        </state>
+        <state line="3806" column="4" selection-start="129501" selection-end="129501" vertical-scroll-proportion="0.46189025" vertical-offset="64399" max-vertical-offset="87108" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/_io.py">
@@ -541,22 +608,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/list1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="18" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-          <folding />
-        </state>
+        <state line="33" column="18" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RW_File.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="4" selection-start="681" selection-end="681" vertical-scroll-proportion="0.6971609" vertical-offset="0" max-vertical-offset="951">
-          <folding />
-        </state>
+        <state line="39" column="4" selection-start="681" selection-end="681" vertical-scroll-proportion="0.6971609" vertical-offset="0" max-vertical-offset="951" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pyqt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="20" selection-start="1754" selection-end="1754" vertical-scroll-proportion="0.5335366" vertical-offset="432" max-vertical-offset="1139">
+        <state line="50" column="0" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.5594512" vertical-offset="483" max-vertical-offset="1139" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/PyQt4/QtGui/QFont.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="294" column="12" selection-start="10245" selection-end="10245" vertical-scroll-proportion="0.33333334" vertical-offset="4800" max-vertical-offset="6494" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/PyQt4/QtGui/QDesktopWidget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="31" selection-start="2030" selection-end="2030" vertical-scroll-proportion="0.42281878" vertical-offset="720" max-vertical-offset="1440">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/PyQt4/QtGui/QMessageBox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="187" selection-start="6148" selection-end="6148" vertical-scroll-proportion="-0.09262436" vertical-offset="2268" max-vertical-offset="5076">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/PyQt4/QtGui/QWidget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1035" column="13" selection-start="38157" selection-end="38162" vertical-scroll-proportion="-10.1" vertical-offset="18273" max-vertical-offset="20160">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyqt/my_icon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="11" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.7885906" vertical-offset="196" max-vertical-offset="792">
+          <folding>
+            <element signature="e#10#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
