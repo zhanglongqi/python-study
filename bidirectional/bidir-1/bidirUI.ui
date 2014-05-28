@@ -25,19 +25,24 @@
      <height>221</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
    <property name="currentIndex">
     <number>0</number>
    </property>
-   <widget class="QWidget" name="tab">
+   <widget class="QWidget" name="tab_bus">
     <attribute name="title">
      <string>Bus Monitoring Mode</string>
     </attribute>
-    <widget class="QSlider" name="horizontalSlider">
+    <widget class="QSlider" name="horizontalSlider_vdc_ref_bus">
      <property name="geometry">
       <rect>
-       <x>60</x>
+       <x>70</x>
        <y>30</y>
-       <width>571</width>
+       <width>521</width>
        <height>29</height>
       </rect>
      </property>
@@ -54,12 +59,12 @@
       <enum>Qt::Horizontal</enum>
      </property>
     </widget>
-    <widget class="QSlider" name="horizontalSlider_2">
+    <widget class="QSlider" name="horizontalSlider_iq_ref_bus">
      <property name="geometry">
       <rect>
-       <x>60</x>
+       <x>70</x>
        <y>100</y>
-       <width>571</width>
+       <width>521</width>
        <height>29</height>
       </rect>
      </property>
@@ -156,9 +161,9 @@
     <widget class="QLabel" name="label_33">
      <property name="geometry">
       <rect>
-       <x>220</x>
+       <x>210</x>
        <y>70</y>
-       <width>100</width>
+       <width>110</width>
        <height>16</height>
       </rect>
      </property>
@@ -173,12 +178,12 @@
       <string>Vdc Reference:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_34">
+    <widget class="QLabel" name="iq_ref_bus">
      <property name="geometry">
       <rect>
-       <x>330</x>
+       <x>340</x>
        <y>140</y>
-       <width>60</width>
+       <width>40</width>
        <height>16</height>
       </rect>
      </property>
@@ -190,10 +195,10 @@
       </font>
      </property>
      <property name="text">
-      <string>0.00 A</string>
+      <string>0.00</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_35">
+    <widget class="QLabel" name="vdc_ref_bus">
      <property name="geometry">
       <rect>
        <x>330</x>
@@ -210,15 +215,15 @@
       </font>
      </property>
      <property name="text">
-      <string>380.00 V</string>
+      <string>380.00</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_36">
      <property name="geometry">
       <rect>
-       <x>230</x>
+       <x>220</x>
        <y>140</y>
-       <width>89</width>
+       <width>100</width>
        <height>16</height>
       </rect>
      </property>
@@ -233,17 +238,129 @@
       <string>Iq Reference:</string>
      </property>
     </widget>
+    <widget class="QPushButton" name="pushButton_low_vdc_bus">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>26</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_raise_vdc_bus">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>20</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>26</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_low_iq_bus">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>26</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_raise_iq_bus">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>90</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>26</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_35">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>140</y>
+       <width>20</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>A</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_41">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>70</y>
+       <width>20</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>V</string>
+     </property>
+    </widget>
    </widget>
-   <widget class="QWidget" name="tab_2">
+   <widget class="QWidget" name="tab_pow">
     <attribute name="title">
      <string>Power Dispatching Mode</string>
     </attribute>
-    <widget class="QSlider" name="horizontalSlider_3">
+    <widget class="QSlider" name="horizontalSlider_iq_ref_pow">
      <property name="geometry">
       <rect>
-       <x>60</x>
+       <x>70</x>
        <y>100</y>
-       <width>571</width>
+       <width>521</width>
        <height>29</height>
       </rect>
      </property>
@@ -260,12 +377,12 @@
       <enum>Qt::Horizontal</enum>
      </property>
     </widget>
-    <widget class="QSlider" name="horizontalSlider_4">
+    <widget class="QSlider" name="horizontalSlider_id_ref_pow">
      <property name="geometry">
       <rect>
-       <x>60</x>
+       <x>70</x>
        <y>30</y>
-       <width>571</width>
+       <width>521</width>
        <height>29</height>
       </rect>
      </property>
@@ -359,7 +476,7 @@
       <string>10 A</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_37">
+    <widget class="QLabel" name="id_ref_pow">
      <property name="geometry">
       <rect>
        <x>360</x>
@@ -376,15 +493,15 @@
       </font>
      </property>
      <property name="text">
-      <string>0.00 A</string>
+      <string>0.00</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_38">
+    <widget class="QLabel" name="iq_ref_pow">
      <property name="geometry">
       <rect>
        <x>360</x>
        <y>140</y>
-       <width>60</width>
+       <width>50</width>
        <height>16</height>
       </rect>
      </property>
@@ -396,15 +513,15 @@
       </font>
      </property>
      <property name="text">
-      <string>0.00 A</string>
+      <string>0.00</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_39">
      <property name="geometry">
       <rect>
-       <x>260</x>
+       <x>240</x>
        <y>70</y>
-       <width>89</width>
+       <width>100</width>
        <height>16</height>
       </rect>
      </property>
@@ -422,9 +539,9 @@
     <widget class="QLabel" name="label_40">
      <property name="geometry">
       <rect>
-       <x>260</x>
+       <x>240</x>
        <y>140</y>
-       <width>89</width>
+       <width>100</width>
        <height>16</height>
       </rect>
      </property>
@@ -437,6 +554,118 @@
      </property>
      <property name="text">
       <string>Iq Reference:</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_raise_id_pow">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>20</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>26</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_low_id_pow">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>26</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_low_iq_pow">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>26</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_raise_iq_pow">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>90</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>26</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_42">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>140</y>
+       <width>20</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>A</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_43">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>70</y>
+       <width>20</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>V</string>
      </property>
     </widget>
    </widget>
@@ -466,6 +695,9 @@
    </property>
   </widget>
   <widget class="QPushButton" name="start_but">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
    <property name="geometry">
     <rect>
      <x>690</x>
@@ -503,7 +735,7 @@
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(85, 255, 0);</string>
+       <string notr="true">background-color: rgb(158, 255, 165);</string>
       </property>
       <property name="text">
        <string>Status:</string>
@@ -518,10 +750,10 @@
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(85, 255, 0);</string>
+       <string notr="true">background-color: rgb(158, 255, 165);</string>
       </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string>No Value</string>
       </property>
      </widget>
     </item>
@@ -545,7 +777,7 @@
        </font>
       </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string>No Value</string>
       </property>
      </widget>
     </item>
@@ -569,7 +801,7 @@
        </font>
       </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string>No Value</string>
       </property>
      </widget>
     </item>
@@ -593,7 +825,7 @@
        </font>
       </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string>No Value</string>
       </property>
      </widget>
     </item>
@@ -605,7 +837,7 @@
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 255, 127);</string>
+       <string notr="true">background-color: rgb(251, 255, 201);</string>
       </property>
       <property name="text">
        <string>Current A(A):</string>
@@ -620,10 +852,10 @@
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 255, 127);</string>
+       <string notr="true">background-color: rgb(251, 255, 201);</string>
       </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string>No Value</string>
       </property>
      </widget>
     </item>
@@ -633,6 +865,9 @@
        <font>
         <pointsize>14</pointsize>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(184, 255, 250);</string>
       </property>
       <property name="text">
        <string>Voltage A(V):</string>
@@ -646,8 +881,11 @@
         <pointsize>14</pointsize>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(184, 255, 250);</string>
+      </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string>No Value</string>
       </property>
      </widget>
     </item>
@@ -671,7 +909,7 @@
        </font>
       </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string>No Value</string>
       </property>
      </widget>
     </item>
@@ -683,7 +921,7 @@
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 255, 127);</string>
+       <string notr="true">background-color: rgb(251, 255, 201);</string>
       </property>
       <property name="text">
        <string>Current B(A):</string>
@@ -698,10 +936,10 @@
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 255, 127);</string>
+       <string notr="true">background-color: rgb(251, 255, 201);</string>
       </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string>No Value</string>
       </property>
      </widget>
     </item>
@@ -711,6 +949,9 @@
        <font>
         <pointsize>14</pointsize>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(184, 255, 250);</string>
       </property>
       <property name="text">
        <string>Voltage B(V):</string>
@@ -724,8 +965,11 @@
         <pointsize>14</pointsize>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(184, 255, 250);</string>
+      </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string>No Value</string>
       </property>
      </widget>
     </item>
@@ -749,7 +993,7 @@
        </font>
       </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string>No Value</string>
       </property>
      </widget>
     </item>
@@ -761,7 +1005,7 @@
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 255, 127);</string>
+       <string notr="true">background-color: rgb(251, 255, 201);</string>
       </property>
       <property name="text">
        <string>Current C(A):</string>
@@ -776,10 +1020,10 @@
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 255, 127);</string>
+       <string notr="true">background-color: rgb(251, 255, 201);</string>
       </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string>No Value</string>
       </property>
      </widget>
     </item>
@@ -789,6 +1033,9 @@
        <font>
         <pointsize>14</pointsize>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(184, 255, 250);</string>
       </property>
       <property name="text">
        <string>Voltage C(V):</string>
@@ -802,8 +1049,11 @@
         <pointsize>14</pointsize>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(184, 255, 250);</string>
+      </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string>No Value</string>
       </property>
      </widget>
     </item>
@@ -812,20 +1062,28 @@
  </widget>
  <tabstops>
   <tabstop>tabWidget</tabstop>
-  <tabstop>horizontalSlider_4</tabstop>
-  <tabstop>horizontalSlider_3</tabstop>
   <tabstop>apply_but</tabstop>
   <tabstop>start_but</tabstop>
-  <tabstop>horizontalSlider</tabstop>
-  <tabstop>horizontalSlider_2</tabstop>
+  <tabstop>horizontalSlider_vdc_ref_bus</tabstop>
+  <tabstop>horizontalSlider_iq_ref_bus</tabstop>
+  <tabstop>pushButton_low_vdc_bus</tabstop>
+  <tabstop>pushButton_raise_vdc_bus</tabstop>
+  <tabstop>pushButton_low_iq_bus</tabstop>
+  <tabstop>pushButton_raise_iq_bus</tabstop>
+  <tabstop>pushButton_raise_id_pow</tabstop>
+  <tabstop>pushButton_low_id_pow</tabstop>
+  <tabstop>pushButton_low_iq_pow</tabstop>
+  <tabstop>pushButton_raise_iq_pow</tabstop>
+  <tabstop>horizontalSlider_id_ref_pow</tabstop>
+  <tabstop>horizontalSlider_iq_ref_pow</tabstop>
  </tabstops>
  <resources/>
  <connections>
   <connection>
-   <sender>horizontalSlider</sender>
+   <sender>horizontalSlider_vdc_ref_bus</sender>
    <signal>valueChanged(int)</signal>
    <receiver>Form</receiver>
-   <slot>vdc_id_ref_changed()</slot>
+   <slot>vdc_ref_bus_changed()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>477</x>
@@ -838,10 +1096,10 @@
    </hints>
   </connection>
   <connection>
-   <sender>horizontalSlider_2</sender>
+   <sender>horizontalSlider_iq_ref_bus</sender>
    <signal>valueChanged(int)</signal>
    <receiver>Form</receiver>
-   <slot>iq_ref_changed()</slot>
+   <slot>iq_ref_bus_changed()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>413</x>
@@ -850,22 +1108,6 @@
     <hint type="destinationlabel">
      <x>686</x>
      <y>28</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>tabWidget</sender>
-   <signal>tabBarClicked(int)</signal>
-   <receiver>tabWidget</receiver>
-   <slot>hide()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>638</x>
-     <y>207</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>652</x>
-     <y>212</y>
     </hint>
    </hints>
   </connection>
@@ -896,16 +1138,16 @@
      <y>180</y>
     </hint>
     <hint type="destinationlabel">
-     <x>787</x>
-     <y>229</y>
+     <x>770</x>
+     <y>223</y>
     </hint>
    </hints>
   </connection>
   <connection>
-   <sender>horizontalSlider_4</sender>
+   <sender>horizontalSlider_id_ref_pow</sender>
    <signal>valueChanged(int)</signal>
    <receiver>Form</receiver>
-   <slot>vdc_id_ref_changed()</slot>
+   <slot>id_ref_pow_changed()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>479</x>
@@ -918,14 +1160,14 @@
    </hints>
   </connection>
   <connection>
-   <sender>horizontalSlider_3</sender>
+   <sender>horizontalSlider_iq_ref_pow</sender>
    <signal>valueChanged(int)</signal>
    <receiver>Form</receiver>
-   <slot>iq_ref_changed()</slot>
+   <slot>iq_ref_pow_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>546</x>
-     <y>143</y>
+     <x>548</x>
+     <y>173</y>
     </hint>
     <hint type="destinationlabel">
      <x>699</x>
@@ -933,11 +1175,166 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>pushButton_low_vdc_bus</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>low_vdc_bus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>37</x>
+     <y>72</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>128</x>
+     <y>75</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_low_iq_bus</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>low_iq_bus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>37</x>
+     <y>142</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>100</x>
+     <y>146</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_raise_iq_bus</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>raise_iq_bus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>620</x>
+     <y>144</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>589</x>
+     <y>173</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_raise_vdc_bus</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>raise_vdc_bus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>623</x>
+     <y>78</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>588</x>
+     <y>103</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_low_id_pow</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>low_id_pow()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>34</x>
+     <y>74</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>94</x>
+     <y>81</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_low_iq_pow</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>low_iq_pow()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>50</x>
+     <y>146</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>93</x>
+     <y>148</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_raise_id_pow</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>raise_id_pow()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>625</x>
+     <y>74</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>593</x>
+     <y>77</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_raise_iq_pow</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>raise_iq_pow()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>618</x>
+     <y>146</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>580</x>
+     <y>152</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tabWidget</sender>
+   <signal>currentChanged(int)</signal>
+   <receiver>Form</receiver>
+   <slot>select_mode()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>631</x>
+     <y>211</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>655</x>
+     <y>241</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
-  <slot>vdc_id_ref_changed()</slot>
-  <slot>iq_ref_changed()</slot>
+  <slot>vdc_ref_bus_changed()</slot>
+  <slot>iq_ref_bus_changed()</slot>
   <slot>apply()</slot>
   <slot>start_or_stop()</slot>
+  <slot>iq_ref_pow_changed()</slot>
+  <slot>id_ref_pow_changed()</slot>
+  <slot>low_vdc_bus()</slot>
+  <slot>low_iq_bus()</slot>
+  <slot>raise_iq_bus()</slot>
+  <slot>raise_vdc_bus()</slot>
+  <slot>low_id_pow()</slot>
+  <slot>low_iq_pow()</slot>
+  <slot>raise_id_pow()</slot>
+  <slot>raise_iq_pow()</slot>
+  <slot>select_mode()</slot>
  </slots>
 </ui>
