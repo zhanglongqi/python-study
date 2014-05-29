@@ -16,6 +16,7 @@ if run == "start":
 '''
 
 import sched, time
+
 s = sched.scheduler(time.time, time.sleep)
 
 
@@ -29,5 +30,6 @@ def print_some_times():
     s.enter(10, 1, print_time, ())
     s.run()
     print time.time()
+
 
 print_some_times()
