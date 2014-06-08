@@ -1,12 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2a371e5-ba88-49be-ae61-7e1a0d12c047" name="Default" comment="write logic control of main function for bi-directional converter">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bidirectional/__init__.py" afterPath="$PROJECT_DIR$/bidirectional/bidir-1/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bidirectional/myModbusTK.py" afterPath="$PROJECT_DIR$/myModbusTK.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bidirectional/myPyModbus.py" afterPath="$PROJECT_DIR$/myPyModbus.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bidirectional/myTimer.py" afterPath="$PROJECT_DIR$/myTimer.py" />
+    <list default="true" id="16c3701c-efdd-4e82-b8b0-e300c7b85e23" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataServer/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataServer/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bidirectional/bidir-1/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataServer/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myMmap.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataServer/DevBase.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_tornado.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myThread.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/race.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RW_File.py" afterPath="$PROJECT_DIR$/RW_File.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vlc.html" afterPath="$PROJECT_DIR$/vlc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/math.py" afterPath="$PROJECT_DIR$/math.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backup2.py" afterPath="$PROJECT_DIR$/backup2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/python.iml" afterPath="$PROJECT_DIR$/.idea/python.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sorted.py" afterPath="$PROJECT_DIR$/sorted.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out.txt" afterPath="$PROJECT_DIR$/out.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.html" afterPath="$PROJECT_DIR$/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myTimer.py" afterPath="$PROJECT_DIR$/myTimer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/printing.py" afterPath="$PROJECT_DIR$/printing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpServer2.py" afterPath="$PROJECT_DIR$/httpServer2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oo0.py" afterPath="$PROJECT_DIR$/oo0.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__init__.py" afterPath="$PROJECT_DIR$/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bidirectional/bidir-1/main.py" afterPath="$PROJECT_DIR$/bidirectional/bidir-1/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpServer3.py" afterPath="$PROJECT_DIR$/httpServer3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpServer.py" afterPath="$PROJECT_DIR$/httpServer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/argument.py" afterPath="$PROJECT_DIR$/argument.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bidirectional/bidir-1/__init__.py" afterPath="$PROJECT_DIR$/bidirectional/bidir-1/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backup.py" afterPath="$PROJECT_DIR$/backup.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.e4p" afterPath="$PROJECT_DIR$/test.e4p" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/in.txt" afterPath="$PROJECT_DIR$/in.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/path.py" afterPath="$PROJECT_DIR$/path.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RegularExpression.py" afterPath="$PROJECT_DIR$/RegularExpression.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/except.py" afterPath="$PROJECT_DIR$/except.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tuples.py" afterPath="$PROJECT_DIR$/tuples.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.txt" afterPath="$PROJECT_DIR$/test.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seq.py" afterPath="$PROJECT_DIR$/seq.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parameters1.py" afterPath="$PROJECT_DIR$/parameters1.py" />
     </list>
     <ignored path="python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,10 +68,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="__init__.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bidirectional/bidir-1/__init__.py">
+      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataServer/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.020247469" vertical-offset="0" max-vertical-offset="889">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DevBase.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dataServer/DevBase.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.35866666" vertical-offset="595" max-vertical-offset="1548">
+              <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -42,67 +92,17 @@
   </component>
   <component name="FindManager">
     <FindUsagesManager>
-      <setting name="OPEN_NEW_TAB" value="false" />
+      <setting name="OPEN_NEW_TAB" value="true" />
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="changedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/uart.py" />
-        <option value="$PROJECT_DIR$/path.py" />
-        <option value="$PROJECT_DIR$/parameters1.py" />
-        <option value="$PROJECT_DIR$/RW_File.py" />
-        <option value="$PROJECT_DIR$/list1.py" />
-        <option value="$PROJECT_DIR$/pyqt.py" />
-        <option value="$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/PyQt4/QtGui/QFont.py" />
-        <option value="$PROJECT_DIR$/pyqt/my_icon.py" />
-        <option value="$PROJECT_DIR$/bidirectional/myTimer.py" />
-        <option value="$PROJECT_DIR$/bidirectional/myModbusTK.py" />
-        <option value="$PROJECT_DIR$/bidirectional/myPyModbus.py" />
-        <option value="$PROJECT_DIR$/bidirectional/bidir-1/app.py" />
-        <option value="$PROJECT_DIR$/bidirectional/bidir-1/bidir_1.py" />
-        <option value="$PROJECT_DIR$/bidirectional/bidir-1/bidirUI.py" />
-        <option value="$PROJECT_DIR$/bidirectional/bidir-1/main.py" />
-        <option value="$PROJECT_DIR$/bidirectional/bidir-1/__init__.py" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1855" />
-    <option name="height" value="992" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Python</id>
-          </State>
-          <State>
-            <id>RELAX NG</id>
-          </State>
-          <State>
-            <id>ReST</id>
-          </State>
-          <State>
-            <id>Spelling</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Spelling</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
+    <option name="x" value="64" />
+    <option name="y" value="-4" />
+    <option name="width" value="1857" />
+    <option name="height" value="1085" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -111,14 +111,14 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -130,6 +130,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -158,7 +159,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pyqt" />
+              <option name="myItemId" value="dataServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -175,282 +176,57 @@
               <option name="myItemId" value="bidirectional" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bidir-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
+    <property name="last_opened_file_path" value="C:/Program Files (x86)/Git/bin/git.exe" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="/usr/local/lib/python2.7/dist-packages/pymodbus/pdu.py" />
-    <property name="LayoutCode.rearrangeEntriesPython" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistory" value="" />
-    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings />
     </option>
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bidirectional/bidir-1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bidirectional/bidir-1/main.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Attests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Python.main" />
-    </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.main" />
-      </list>
-    </recent_temporary>
+  <component name="RunManager">
+    <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <configuration useDefault="false">$USER_HOME$/.subversion</configuration>
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f2a371e5-ba88-49be-ae61-7e1a0d12c047" name="Default" comment="" />
-      <created>1400637745511</created>
-      <updated>1400637745511</updated>
+      <changelist id="16c3701c-efdd-4e82-b8b0-e300c7b85e23" name="Default" comment="" />
+      <created>1402226621580</created>
+      <updated>1402226621580</updated>
     </task>
-    <task id="LOCAL-00001" summary="test 1">
-      <created>1400639037391</created>
-      <updated>1400639037391</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Reformatting Source Code">
-      <created>1400639218257</created>
-      <updated>1400639218259</updated>
-    </task>
-    <task id="LOCAL-00003" summary="study list and tuple">
-      <created>1400677404935</created>
-      <updated>1400677404935</updated>
-    </task>
-    <task id="LOCAL-00004" summary="study PyQt">
-      <created>1400758282778</created>
-      <updated>1400758282778</updated>
-    </task>
-    <task id="LOCAL-00005" summary="study PyQt">
-      <created>1401007609459</created>
-      <updated>1401007609459</updated>
-    </task>
-    <task id="LOCAL-00006" summary="study PyQt">
-      <created>1401007666671</created>
-      <updated>1401007666671</updated>
-    </task>
-    <task id="LOCAL-00007" summary="study PyModbus">
-      <created>1401027978488</created>
-      <updated>1401027978488</updated>
-    </task>
-    <task id="LOCAL-00008" summary="study PyModbus further:&#10;control relay">
-      <created>1401109109353</created>
-      <updated>1401109109353</updated>
-    </task>
-    <task id="LOCAL-00009" summary="write main function for bi-directional converter">
-      <created>1401193190182</created>
-      <updated>1401193190182</updated>
-    </task>
-    <task id="LOCAL-00010" summary="write main function for bi-directional converter">
-      <created>1401193282488</created>
-      <updated>1401193282488</updated>
-    </task>
-    <task id="LOCAL-00011" summary="write main function for bi-directional converter">
-      <created>1401193338112</created>
-      <updated>1401193338112</updated>
-    </task>
-    <task id="LOCAL-00012" summary="write logic control of main function for bi-directional converter">
-      <created>1401284718028</created>
-      <updated>1401284718028</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="992" extended-state="6" />
+    <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20651068" sideWeight="0.49973047" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1477089" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15148248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25025433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20651068" sideWeight="0.50026953" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -458,6 +234,9 @@
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
@@ -468,282 +247,69 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="test 1" />
-    <MESSAGE value="Reformatting Source Code" />
-    <MESSAGE value="study list and tuple" />
-    <MESSAGE value="study PyQt" />
-    <MESSAGE value="study PyModbus" />
-    <MESSAGE value="study PyModbus further:&#10;control relay" />
-    <MESSAGE value="write main function for bi-directional converter" />
-    <MESSAGE value="write logic control of main function for bi-directional converter" />
-    <option name="LAST_COMMIT_MESSAGE" value="write logic control of main function for bi-directional converter" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="3" />
-    </breakpoint-manager>
+    <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myPyModbus.py">
+    <entry file="file://$PROJECT_DIR$/dataServer/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="16" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1386" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myModbusTK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="162" />
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/modbus_tk/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="15" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="414" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myTimer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="21" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="684" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myPyModbus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="16" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.0" vertical-offset="1278" max-vertical-offset="1386" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myModbusTK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="6" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="126" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myTimer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="21" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="684" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myPyModbus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="396" />
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/pymodbus/register_read_message.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="0" selection-start="1918" selection-end="1918" vertical-scroll-proportion="0.0" vertical-offset="1296" max-vertical-offset="6300" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyqt/my_icon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="7" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="648" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/PyQt4/QtGui/QMessageBox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="187" selection-start="6148" selection-end="6148" vertical-scroll-proportion="0.0" vertical-offset="2268" max-vertical-offset="5130" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyqt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1733" selection-end="1733" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1139" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RW_File.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="4" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="816" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="15" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="663" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parameters1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="10" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/math.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="571" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/printing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="34" selection-start="747" selection-end="747" vertical-scroll-proportion="0.6219512" vertical-offset="0" max-vertical-offset="782" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/path.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="537" selection-end="537" vertical-scroll-proportion="0.46646342" vertical-offset="0" max-vertical-offset="656" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parameters1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="10" selection-start="494" selection-end="494" vertical-scroll-proportion="0.3753943" vertical-offset="0" max-vertical-offset="951" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="4" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="1139" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/_io.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1010" column="16" selection-start="35734" selection-end="35742" vertical-scroll-proportion="0.33231708" vertical-offset="16952" max-vertical-offset="23052" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="656" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/in.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="571" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="18" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RW_File.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="4" selection-start="681" selection-end="681" vertical-scroll-proportion="0.6971609" vertical-offset="0" max-vertical-offset="951" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/PyQt4/QtGui/QFont.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="294" column="12" selection-start="10245" selection-end="10245" vertical-scroll-proportion="0.33333334" vertical-offset="4800" max-vertical-offset="6494" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/PyQt4/QtGui/QDesktopWidget.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="31" selection-start="2030" selection-end="2030" vertical-scroll-proportion="0.42281878" vertical-offset="720" max-vertical-offset="1440" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/PyQt4/QtGui/QMessageBox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="187" selection-start="6148" selection-end="6148" vertical-scroll-proportion="-0.09262436" vertical-offset="2268" max-vertical-offset="5076" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyqt/my_icon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="369" selection-end="369" vertical-scroll-proportion="0.45302013" vertical-offset="0" max-vertical-offset="792" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/PyQt4/QtGui/QWidget.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1035" column="13" selection-start="38157" selection-end="38162" vertical-scroll-proportion="0.5479204" vertical-offset="18273" max-vertical-offset="20160" />
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/pymodbus/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="0.36241612" vertical-offset="0" max-vertical-offset="774" />
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/pymodbus/client/sync.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="6" selection-start="4096" selection-end="4096" vertical-scroll-proportion="0.33221477" vertical-offset="1602" max-vertical-offset="6534" />
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/pymodbus/pdu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="16" selection-start="2565" selection-end="2565" vertical-scroll-proportion="0.45936397" vertical-offset="1054" max-vertical-offset="4356" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4433" column="6" selection-start="149944" selection-end="149944" vertical-scroll-proportion="0.33221477" vertical-offset="79596" max-vertical-offset="92232" />
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/pymodbus/client/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="0" selection-start="3920" selection-end="3920" vertical-scroll-proportion="0.63422817" vertical-offset="1530" max-vertical-offset="2484" />
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python2.7/sched.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="8" selection-start="2243" selection-end="2243" vertical-scroll-proportion="0.33221477" vertical-offset="792" max-vertical-offset="2502" />
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/modbus_tk/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="40" selection-start="193" selection-end="193" vertical-scroll-proportion="0.11332634" vertical-offset="0" max-vertical-offset="953" />
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/modbus_tk/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="23" selection-start="45" selection-end="45" vertical-scroll-proportion="0.018887723" vertical-offset="0" max-vertical-offset="953" />
-      </provider>
-    </entry>
-    <entry file="jar:///usr/local/lib/python2.7/dist-packages/pymodbus-1.2.0-py2.7.egg!/pymodbus/client/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="71" selection-start="3805" selection-end="3805" vertical-scroll-proportion="0.6943973" vertical-offset="1409" max-vertical-offset="2484" />
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/pymodbus/register_read_message.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="17" selection-start="3906" selection-end="3906" vertical-scroll-proportion="0.69949067" vertical-offset="1820" max-vertical-offset="6246" />
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/modbus_tk/modbus_tcp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="10" selection-start="5803" selection-end="5803" vertical-scroll-proportion="0.29541597" vertical-offset="258" max-vertical-offset="1998" />
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/modbus_tk/modbus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="11" selection-start="3080" selection-end="3085" vertical-scroll-proportion="-0.2139219" vertical-offset="1944" max-vertical-offset="16956" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myModbusTK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="234" selection-end="234" vertical-scroll-proportion="0.27504244" vertical-offset="0" max-vertical-offset="589" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myPyModbus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="1645" selection-end="1645" vertical-scroll-proportion="0.39728352" vertical-offset="0" max-vertical-offset="589" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/PyQt4/QtGui/QApplication.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="367" column="8" selection-start="14049" selection-end="14049" vertical-scroll-proportion="0.64113325" vertical-offset="5995" max-vertical-offset="6948" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-2066100796/PyQt4/QtCore/QMetaObject.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="8" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.33297873" vertical-offset="317" max-vertical-offset="2772" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bidirectional/bidir-1/bidirUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="472" column="51" selection-start="23464" selection-end="23464" vertical-scroll-proportion="0.3589365" vertical-offset="8253" max-vertical-offset="10440" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyqt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="14" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.40494937" vertical-offset="270" max-vertical-offset="1206">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bidirectional/bidir-1/main.py">
+    <entry file="file://$PROJECT_DIR$/dataServer/DevBase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="34" selection-start="550" selection-end="550" vertical-scroll-proportion="-1.7131609" vertical-offset="1847" max-vertical-offset="2736">
+        <state vertical-scroll-proportion="0.0" vertical-offset="605" max-vertical-offset="1458">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myTimer.py">
+    <entry file="file://$PROJECT_DIR$/dataServer/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="479" selection-end="479" vertical-scroll-proportion="0.40494937" vertical-offset="0" max-vertical-offset="889">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bidirectional/bidir-1/__init__.py">
+    <entry file="file://$PROJECT_DIR$/dataServer/DevBase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.020247469" vertical-offset="0" max-vertical-offset="889">
+        <state vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1458">
+          <caret line="53" column="64" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_tornado.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07725322" vertical-offset="0" max-vertical-offset="699">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataServer/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataServer/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataServer/DevBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35866666" vertical-offset="595" max-vertical-offset="1548">
+          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
           <folding />
         </state>
       </provider>

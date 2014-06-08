@@ -1,1 +1,3 @@
-__author__ = 'longqi'
+__version__ = '0.1'
+__author__ = 'Zhang LongQi'
+

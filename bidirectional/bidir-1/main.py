@@ -4,6 +4,7 @@ from PyQt4 import QtCore, QtGui
 
 from bidirUI import Ui_Form
 
+
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
 except AttributeError:
@@ -81,30 +82,10 @@ class MainWindow(QtGui.QWidget, Ui_Form):
         self.horizontalSlider_iq_ref_pow.triggerAction(QtGui.QAbstractSlider.SliderSingleStepAdd)
 
     def select_mode(self, index):
-        print 'select_mode', index
-
-    '''
-    def make_conn(self):
-        QtCore.QObject.connect(self.horizontalSlider_vdc_ref_bus,
-                               QtCore.SIGNAL(_fromUtf8("valueChanged(int)")), self.vdc_ref_bus_changed)
-        QtCore.QObject.connect(self.horizontalSlider_iq_ref_bus,
-                               QtCore.SIGNAL(_fromUtf8("valueChanged(int)")), self.iq_ref_bus_changed)
-        QtCore.QObject.connect(self.apply_but, QtCore.SIGNAL(_fromUtf8("clicked()")), self.apply)
-        QtCore.QObject.connect(self.start_but, QtCore.SIGNAL(_fromUtf8("clicked()")), self.start_or_stop)
-        QtCore.QObject.connect(self.horizontalSlider_id_ref_pow,
-                               QtCore.SIGNAL(_fromUtf8("valueChanged(int)")), self.id_ref_pow_changed)
-        QtCore.QObject.connect(self.horizontalSlider_iq_ref_pow,
-                               QtCore.SIGNAL(_fromUtf8("valueChanged(int)")), self.iq_ref_pow_changed)
-        QtCore.QObject.connect(self.pushButton_low_vdc_bus, QtCore.SIGNAL(_fromUtf8("clicked()")), self.low_vdc_bus)
-        QtCore.QObject.connect(self.pushButton_low_iq_bus, QtCore.SIGNAL(_fromUtf8("clicked()")), self.low_iq_bus)
-        QtCore.QObject.connect(self.pushButton_raise_iq_bus, QtCore.SIGNAL(_fromUtf8("clicked()")), self.raise_iq_bus)
-        QtCore.QObject.connect(self.pushButton_raise_vdc_bus, QtCore.SIGNAL(_fromUtf8("clicked()")), self.raise_vdc_bus)
-        QtCore.QObject.connect(self.pushButton_low_id_pow, QtCore.SIGNAL(_fromUtf8("clicked()")), self.low_id_pow)
-        QtCore.QObject.connect(self.pushButton_low_iq_pow, QtCore.SIGNAL(_fromUtf8("clicked()")), self.low_iq_pow)
-        QtCore.QObject.connect(self.pushButton_raise_id_pow, QtCore.SIGNAL(_fromUtf8("clicked()")), self.raise_id_pow)
-        QtCore.QObject.connect(self.pushButton_raise_iq_pow, QtCore.SIGNAL(_fromUtf8("clicked()")), self.raise_iq_pow)
-        QtCore.QObject.connect(self.tabWidget, QtCore.SIGNAL(_fromUtf8("currentChanged(int)")), self.select_mode)
-    '''
+        if index == Bus_Monitoring_mode:
+            print 'select_mode: Bus Monitoring mode'
+        elif index == Power_Dispatchin_mode:
+            print 'select_mode: Power Dispatchin mode'
 
     def __init__(self):
         QtGui.QWidget.__init__(self)
@@ -113,7 +94,7 @@ class MainWindow(QtGui.QWidget, Ui_Form):
         self.setupUi(self)
         # custom slots connections
         # one way to connect signal/slot connection
-        #self.apply_but.connect(self.apply_but, QtCore.SIGNAL("released()"), self.apply)
+        # self.apply_but.connect(self.apply_but, QtCore.SIGNAL("released()"), self.apply)
         # second way to build connection
         #QtCore.QObject.connect(self.apply_but, QtCore.SIGNAL("released()"), self.apply)
         # third way to build connection
@@ -139,12 +120,3 @@ def main(argv):
 if __name__ == "__main__":
     main(sys.argv)
     print sys.argv
-'''
-if __name__ == '__main__':
-    app = QtGui.QApplication(sys.argv)
-    Form = QtGui.QWidget()
-    ui = bidirUI.Ui_Form()
-    ui.setupUi(Form)
-    Form.show()
-    sys.exit(app.exec_())
-'''

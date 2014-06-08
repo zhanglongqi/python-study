@@ -15,7 +15,8 @@ if run == "start":
     # Bring up the dialog box here
 '''
 
-import sched, time
+import sched
+import time
 
 s = sched.scheduler(time.time, time.sleep)
 
