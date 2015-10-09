@@ -14,15 +14,23 @@ if __name__ == '__main__':
         try:
             connection.settimeout(5)
             buf = connection.recv(4096)
-            while buf != '-1':
+            buf = str(buf, encoding='utf-8')
+            while True:
                 if buf == '1':
-                    connection.send('welcome to server! 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1')
+                    connection.send(bytes('welcome to server! 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1', encoding='utf8'))
                 elif buf == '2':
-                    connection.send('welcome to server! 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2')
+                    connection.send(bytes('welcome to server! 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2', encoding='utf8'))
                 elif buf == '-1':
-                    connection.send('Disconnecting...')
+                    connection.send(bytes('Disconnecting...', encoding='utf8'))
+
                     connection.close()
+                    break;
+
                 buf = connection.recv(4096)
+                buf = str(buf, encoding='utf-8')
+
         except socket.timeout:
-            print 'time out'
+            print('time out')
             connection.close()
+
+    sock.close()

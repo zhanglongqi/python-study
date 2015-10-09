@@ -8,7 +8,7 @@ Created on Fri Oct 18 16:28:27 2013
 
 class Person(object):
     count = 0
-    #name = ''
+    # name = ''
 
     def __init__(self, name):
         Person.count += 1
@@ -17,40 +17,40 @@ class Person(object):
         self.age = -1
 
     def say_hi(self):
-        print "Hello, I'm", self.name, ", No.", self.number, ", We have ", Person.count, '\n'
-        #self.sayHi()
+        print("Hello, I'm", self.name, ", No.", self.number, ", We have ", Person.count, '\n')
+        # self.sayHi()
 
     def set_age(self, age):
         self.age = age
 
 
-print 111111111111111
-print Person, type(Person)
+print(111111111111111)
+print(Person, type(Person))
 
 p = Person("longqi")
 p2 = Person("C-3PO")
 p3 = Person("R2-D2")
 
-print 2222222222222222
-print p, type(p)
+print(2222222222222222)
+print(p, type(p))
 
-print 333333333333333
+print(333333333333333)
 p.set_age(5)
-print p.age
+print(p.age)
 p.say_hi()
 
 p2.say_hi()
-print p2.age
+print(p2.age)
 p3.say_hi()
 Person("").say_hi()
 Person("The Dark One").say_hi()
 
-print "*************inheritance**************", "\n"
+print("*************inheritance**************", "\n")
 
 
 class Teacher(Person):
     def __init__(self, name, age):
-        Person.__init__(self, name)  #必须手动调用父类构造函数
+        Person.__init__(self, name)  # 必须手动调用父类构造函数
         self.age = age
 
     def say_hi(self):
@@ -60,11 +60,13 @@ class Teacher(Person):
 
 t = Teacher("T1", 32)
 t.say_hi()
-print "type of teacher t1", type(t)
-print issubclass(t.__class__, object)
-print isinstance(t, object)
+print("type of teacher t1", type(t))
+print(issubclass(t.__class__, object))
+print(isinstance(t, object))
+
+
 # new-style classes or old-style class ?
-#http://stackoverflow.com/questions/9698614/super-raises-typeerror-must-be-type-not-classobj-for-new-style-class
+# http://stackoverflow.com/questions/9698614/super-raises-typeerror-must-be-type-not-classobj-for-new-style-class
 
 
 def is_new_style_class(klass):

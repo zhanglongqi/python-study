@@ -3,7 +3,7 @@
 # Form implementation generated from reading ui file 'untitled.ui'
 #
 # Created: Thu May 22 17:26:36 2014
-#      by: PyQt4 UI code generator 4.9.1
+# by: PyQt4 UI code generator 4.9.1
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -18,6 +18,7 @@ try:
 except AttributeError:
     _fromUtf8 = lambda s: s
 
+
 class Ui_Form(object):
     click_count = 0
     """
@@ -25,6 +26,7 @@ class Ui_Form(object):
     once at first, whenever you create new objects it will reuse this same dict. To create instance variables, you
     declare them with self in __init__; its as simple as that.
     """
+
     def setupUi(self, Form):
         Form.setObjectName(_fromUtf8("Form"))
         Form.resize(800, 380)
@@ -33,7 +35,7 @@ class Ui_Form(object):
         self.pushButton.setObjectName(_fromUtf8("pushButton"))
         self.lineEdit = QtGui.QLineEdit(Form)
         self.lineEdit.setGeometry(QtCore.QRect(30, 30, 571, 281))
-        self.lineEdit.setText(str(self.click_count)+' clicks\n')
+        self.lineEdit.setText(str(self.click_count) + ' clicks\n')
         self.lineEdit.setObjectName(_fromUtf8("lineEdit"))
 
         self.retranslateUi(Form)
@@ -41,18 +43,19 @@ class Ui_Form(object):
         QtCore.QMetaObject.connectSlotsByName(Form)
 
     def retranslateUi(self, Form):
-        Form.setWindowTitle(QtGui.QApplication.translate("Form", "Form for testing, 测试窗体", None, QtGui.QApplication.UnicodeUTF8))
-        self.pushButton.setText(QtGui.QApplication.translate("Form", "PushButton", None, QtGui.QApplication.UnicodeUTF8))
+        Form.setWindowTitle(
+            QtGui.QApplication.translate("Form", "Form for testing, 测试窗体", None, QtGui.QApplication.UnicodeUTF8))
+        self.pushButton.setText(
+            QtGui.QApplication.translate("Form", "PushButton", None, QtGui.QApplication.UnicodeUTF8))
 
     def slot1(self):
-        self.click_count+=1
-        self.lineEdit.setText(str(self.click_count)+' clicks\n')
-
-
+        self.click_count += 1
+        self.lineEdit.setText(str(self.click_count) + ' clicks\n')
 
 
 if __name__ == "__main__":
     import sys
+
     app = QtGui.QApplication(sys.argv)
     Form = QtGui.QWidget()
     ui = Ui_Form()

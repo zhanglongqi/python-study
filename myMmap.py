@@ -25,7 +25,7 @@ def delete_from_mmap(start, end):
     size = len(mmapData)
     newsize = size - length
 
-    mmapData.move(start, end, size-end)
+    mmapData.move(start, end, size - end)
     mmapData.flush()
     mmapData.close()
     f.truncate(newsize)
@@ -41,11 +41,11 @@ def insert_into_mmap(offset, data):
     mmapData.flush()
     mmapData.close()
     f.seek(size)
-    f.write("A"*length)
+    f.write("A" * length)
     f.flush()
     mmapData = mmap.mmap(f.fileno(), 0)
 
-    mmapData.move(offset+length, offset, size-offset)
+    mmapData.move(offset + length, offset, size - offset)
     mmapData.seek(offset)
     mmapData.write(data)
     mmapData.flush()
@@ -54,11 +54,9 @@ def insert_into_mmap(offset, data):
 def replace_in_mmap(offset, olddata, newdata):
     global mmapData
     insert_into_mmap(offset, newdata)
-    delete_from_mmap(offset+len(newdata), offset+len(newdata)+len(olddata))
+    delete_from_mmap(offset + len(newdata), offset + len(newdata) + len(olddata))
 
 
 insert_into_mmap(4, "AAAA")
 
 replace_in_mmap(2, 'i', 'zhang')
-
-
