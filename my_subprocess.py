@@ -1,14 +1,13 @@
 __author__ = 'longqi'
 import subprocess
 
-subprocess.Popen('echo "hello world!"', shell=True, executable='/usr/bin/zsh', )
+subprocess.Popen('echo "hello world!"', shell=True, executable='/bin/zsh', )
 
 
 def print_string(string):
     print(subprocess.Popen('echo "%s"' % string, shell=True, ))
 
 
-print_string("dd")
 subprocess.call(['ls', '-sh', '/boot'])
 
 print('_______________________________')
