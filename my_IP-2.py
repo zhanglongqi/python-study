@@ -10,7 +10,7 @@ def getNetworkIp():
     return s.getsockname()[0]
 
 
-print((getNetworkIp()))
+# print((getNetworkIp()))
 
 '''
 
@@ -26,7 +26,7 @@ print(([(s.connect(('8.8.8.8', 80)), s.getsockname()[0], s.close()) for s in
 '''
 import sys
 
-if sys.version_info[1] != 7:
+if sys.version_info.major < 2:
     raise RuntimeError('Python 2.7 And Above Only')
 
 from subprocess import check_output  # Available on Python 2.7+ | N/A
