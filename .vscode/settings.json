@@ -1,0 +1,6 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": false,
+    "python.linting.enabled": true,
+    "python.pythonPath": "/Users/longqi/.local/share/virtualenvs/python-study-6FBbhRLW/bin/python"
+}
